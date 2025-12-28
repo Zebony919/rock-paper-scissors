@@ -1,1 +1,1 @@
-# rock-paper-scissors
+A rock, paper, scissors game for the Odin Project. Displays my current skills in JavaScript.
