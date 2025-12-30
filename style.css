@@ -1,7 +1,62 @@
 body {
+    background-color: black;
+    margin: 0;
+}
+
+.text {
+    color: green;
+    font-weight: bold;
+}
+
+.result-text {
+    font-size: 50px;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+.top-half,
+.bottom-half {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    min-height: 50vh;
     align-items: center;
-    min-height: 100vh;
+}
+
+.top-half {
+    justify-content: center;
+}
+
+.bottom-half {
+    justify-content: center;
+}
+
+#button-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+button {
+    background-color: white;
+    border: 10px solid green;
+    border-radius: 10%;
+}
+
+button:disabled {
+    border: 10px solid red;
+    border-radius: 10%;
+}
+
+.choice-images {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    background-color: white;
+}
+
+.result {
+    margin-top: auto;
 }
